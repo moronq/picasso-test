@@ -1,0 +1,5 @@
+export * from './Comment/Comment'
+export * from './Modal/Modal'
+export * from './PostItem/PostItem'
+export * from './Posts/Posts'
+export * from './UserInfo/UserInfo'

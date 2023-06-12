@@ -1,0 +1,7 @@
+.close {
+  @apply w-5 h-5 bg-center bg-no-repeat bg-contain bg-[url('../../static/images/discard.svg')] hover:opacity-50;
+}
+
+.container {
+  @apply bg-white flex p-5 rounded-xl w-80 border-2 justify-between shadow-lg;
+}

@@ -1,0 +1,23 @@
+.coin_list_container {
+  @apply bg-white absolute h-0 right-0 top-[50px] w-72 rounded-[5px] overflow-y-scroll shadow-filter-border transition-height duration-200;
+}
+.coin_list_container.active {
+  @apply h-[250px];
+}
+
+.clear_icon_container,
+.select_icon_container {
+  @apply bg-no-repeat bg-center self-center;
+}
+
+.select_icon_container {
+  @apply w-3.5 h-[9px] bg-[url('../../static/images/arrow.svg')] transition-transform duration-200;
+}
+
+.select_icon_container.active {
+  @apply origin-center rotate-180;
+}
+
+.clear_icon_container {
+  @apply w-6 h-6 bg-[url('../../static/images/discard.svg')];
+}
